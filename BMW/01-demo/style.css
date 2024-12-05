@@ -1,0 +1,25 @@
+#headingtag1 {
+  color: rgb(0, 255, 195);
+  background-color: antiquewhite;
+}
+#id2 {
+  color: rgb(100, 36, 183);
+}
+#p1 {
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 600;
+}
+.democlass {
+  color: #49c653;
+}
+#demoh1 {
+  color: yellow;
+}
+#img1 {
+  border-radius: 16px;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
