@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <title>Base Project</title>
+    <style>
+        html,body{
+            height: 100%;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        main{
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+       <div class="container">
+        <!-- Row  Player Information -->
+        <div class="row m-4">
+            <div class="col-3">
+                <img src="./assets/images/hanoi03.jpg" class="img-fluid rounded-circle m" style="height: 120px;width: 120px;" alt="Ha noi">
+            </div>
+            <div class="col-9">
+                <p>Ronaldo</p>
+            </div>
+        </div>
+        
+       </div>
+    </main>
+    <footer class="bg-black py-sm-2 text-white">
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary m-2">
+                <a class="text-white link-underline" href="./login.html">Login</a>
+            </button>
+            <button type="button" class="btn btn-danger m-2">SignUp</button>
+        </div>
+    </footer>
+</body>
+</html>
