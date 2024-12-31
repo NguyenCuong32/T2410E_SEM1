@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets//css/bootstrap.min.css" />
+    <title>Demo Java Script</title>
+  </head>
+  <body>
+    <!-- <div class="container">
+        <h1 class="text-success">Demo JavaScript</h1>
+        <label class="fw-bold" for="">Fullname: <span class="fw-medium" id="fullname"></span></label>
+        <br>
+        <label class="fw-bold" for="">Age: <span class="fw-medium" id="age"></span></label>
+        <br>
+        <label class="fw-bold" for="">Address: <span class="fw-medium" id="address"></span></label>
+    </div> -->
+    <div class="container">
+        <div class="d-flex justify-content-between m-3">
+            <label class="text-success">Demo JavaScript</label>
+        </div>
+     <div class="row">
+         <div class="col-6">
+            <div class="input-group">
+                <label for="fullname" class="me-4">Fullname</label>
+                <input
+                  type="text"
+                  class="form-control m-1 rounded-2"
+                  name="fullname"
+                  id="fullnameinput"
+                  value="Nguyen Van A"
+                  onchange="onChangeValue()"
+                />
+              </div>
+              <div class="input-group">
+                <label for="age" class="me-4">Age</label>
+                <input
+                  type="text"
+                  class="form-control m-1 rounded-2"
+                  name="age"
+                  id="ageinput"
+                  value="25"
+                  onchange="onChangeValue()"
+                />
+              </div>
+              <div class="input-group">
+                <label for="address" class="me-4">Address</label>
+                <input
+                  type="text"
+                  class="form-control m-1 rounded-2"
+                  name="address"
+                  id="addressinput"
+                  value="ha noi"
+                  onchange="onChangeValue()"
+                />
+              </div>
+         </div>
+     </div>
+      <br />
+      <div>
+        <label class="fw-bold" for=""
+          >Fullname: <span class="fw-medium" id="fullname"></span
+        ></label>
+        <br />
+        <label class="fw-bold" for=""
+          >Age: <span class="fw-medium" id="age"></span
+        ></label>
+        <br />
+        <label class="fw-bold" for=""
+          >Address: <span class="fw-medium" id="address"></span
+        ></label>
+      </div>
+    </div>
+  </body>
+  <script>
+    function onChangeValue() {
+      var fullname = document.getElementById("fullnameinput").value;
+      var age = document.getElementById("ageinput").value;
+      var address = document.getElementById("addressinput").value;
+      document.getElementById("fullname").textContent = fullname;
+      document.getElementById("age").textContent = age;
+      document.getElementById("address").textContent = address;
+    }
+  </script>
+</html>
