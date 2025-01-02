@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <title>Demo </title>
+</head>
+<body>
+    <div class="mb-3">
+        <label for="price" class="form-label">Price:</label>
+        <span id="priceValue">0</span>
+        <input type="range" class="form-range" id="price" min="0" max="100" step="5"
+        value="0" onchange="getPrice(this.value)">
+      </div>
+      <script>
+        function getPrice(value){
+            document.getElementById("priceValue").textContent = value
+        }
+      </script>
+</body>
+</html>
