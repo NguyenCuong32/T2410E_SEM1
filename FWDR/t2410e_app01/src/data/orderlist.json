@@ -1,0 +1,27 @@
+[
+   {
+    "id":1,
+    "name":"Coca-cola",
+    "quantity":100
+   },
+   {
+    "id":2,
+    "name":"Tiger beer",
+    "quantity":24
+   },
+   {
+    "id":3,
+     "name":"Rice",
+     "quantity":30
+   },
+   {
+    "id":4,
+    "name":"Rice - ST25",
+    "quantity":100
+  },
+  {
+    "id":5,
+    "name": "C2",
+    "quantity":15
+  }
+]

@@ -1,15 +1,13 @@
 
 import './App.css';
-import Hello from './components/Hello';
-import Order from './components/Order';
+import OrderList from './components/OrderList';
+import OrderTable from './components/OrderTable';
 
 function App() {
   return (
     <div className="App">
-      <Order name="Lavie" quantity="10"></Order>
-      <Order name="Tiger Beer" quantity="24"></Order>
-      <Hello name="Hoang Anh"></Hello>
-      <Hello name="Ha Thi Anh"></Hello>
+      <OrderList></OrderList>
+      <OrderTable></OrderTable>
     </div>
   );
 }
