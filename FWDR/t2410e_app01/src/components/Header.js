@@ -15,8 +15,8 @@ function Header() {
             <NavLink to="/home" className="text-light fw-bold mx-3">
               Home
             </NavLink>
-            <NavLink to="/video" className="text-light fw-bold mx-3">
-              Videos
+            <NavLink to="/order" className="text-light fw-bold mx-3">
+              Order List
             </NavLink>
             <NavLink to="/aboutme" className="text-light fw-bold mx-3">
               About Me
