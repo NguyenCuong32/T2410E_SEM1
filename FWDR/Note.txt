@@ -1,0 +1,6 @@
+Bước 1: Tạo dự án: npx create-react-app t2410e_prac01
+       Nếu muốn tạo dự án với npx mới nhất dùng lệnh: npx create-react-app@latest my-app
+Bước 2: Cài các thư viện: 
+npm install react-bootstrap bootstrap
+npm install react-router-dom
+
