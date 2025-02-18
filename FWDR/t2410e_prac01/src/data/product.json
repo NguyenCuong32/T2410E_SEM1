@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name":"iPhone 16",
+        "desription":"iPhone 16, best product",
+        "price":1200,
+        "image":"../images/iphone01.jpg"
+    },
+    {
+        "id":1,
+        "name":"iPhone 17",
+        "desription":"iPhone 17, best product",
+        "price":1200,
+        "image":"../images/iphone02.jpg"
+    },
+    {
+        "id":1,
+        "name":"mac 2023",
+        "desription":"mac pro 2023, best product",
+        "price":1200,
+        "image":"../images/macbook01.webp"
+    },
+    {
+        "id":1,
+        "name":"mac 2024",
+        "desription":"mac 2024, best product",
+        "price":1200,
+        "image":"../images/macbook02.webp"
+    }
+]

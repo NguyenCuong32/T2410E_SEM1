@@ -4,3 +4,20 @@ Bước 2: Cài các thư viện:
 npm install react-bootstrap bootstrap
 npm install react-router-dom
 
+Bước 3: Tạo Route cho trang web
+    - Tạo folder components
+    - Tạo folder pages
+    - Tạo header/footer cho trang web
+    - Tạo trang HomePage, ProductPage, AboutUs
+    - Vào App.js để tạo Navigation cho trang.
+        HomePage, 
+        ProductPage, 
+        AboutUs
+
+Bước 4: Tạo dữ liệu cho trang web
+    - Dữ liệu ảnh
+    - File JSON
+Bước 5: Tạo trang web Product có các component:
+    - Product
+    - Product List
+    - Product Page
