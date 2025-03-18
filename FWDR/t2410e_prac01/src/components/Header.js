@@ -4,9 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 function Header(){
     return (
-        <Navbar expand="lg" className=" bg-secondary">
+        <Navbar expand="lg" className=" bg-dark">
         <Container>
-          <Navbar.Brand>My Class</Navbar.Brand>
+          <Navbar.Brand><b><span className="text-light fs-1">Nokia</span></b></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

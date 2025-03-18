@@ -23,11 +23,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.widhtcard{
+  width: 32rem;
+}
 
 .App-link {
   color: #61dafb;
 }
-
+.card-img-top {
+  width: 100%;
+  height: 300px; 
+  object-fit: contain;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

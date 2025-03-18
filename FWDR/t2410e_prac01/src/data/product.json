@@ -2,29 +2,57 @@
     {
         "id":1,
         "name":"iPhone 16",
-        "desription":"iPhone 16, best product",
+        "desription":"Titanium design with larger 6.3-inch Super Retina XDR display, note 1 Durable latest-generation Ceramic Shield, Action button, and USB-C supporting USB 3 speeds note 2",
         "price":1200,
         "image":"../images/iphone01.jpg"
     },
     {
-        "id":1,
+        "id":2,
         "name":"iPhone 17",
-        "desription":"iPhone 17, best product",
+        "desription":"Titanium design with larger 6.3-inch Super Retina XDR display, note 1 Durable latest-generation Ceramic Shield, Action button, and USB-C supporting USB 3 speeds note 2",
         "price":1200,
         "image":"../images/iphone02.jpg"
     },
     {
-        "id":1,
+        "id":3,
         "name":"mac 2023",
-        "desription":"mac pro 2023, best product",
+        "desription":"Titanium design with larger 6.3-inch Super Retina XDR display, note 1 Durable latest-generation Ceramic Shield, Action button, and USB-C supporting USB 3 speeds note 2",
         "price":1200,
         "image":"../images/macbook01.webp"
     },
     {
-        "id":1,
+        "id":4,
         "name":"mac 2024",
-        "desription":"mac 2024, best product",
+        "desription":"Titanium design with larger 6.3-inch Super Retina XDR display, note 1 Durable latest-generation Ceramic Shield, Action button, and USB-C supporting USB 3 speeds note 2",
         "price":1200,
         "image":"../images/macbook02.webp"
+    },
+    {
+        "id":5,
+        "name":"iPhone 16",
+        "desription":"Titanium design with larger 6.3-inch Super Retina XDR display, note 1 Durable latest-generation Ceramic Shield, Action button, and USB-C supporting USB 3 speeds note 2",
+        "price":1200,
+        "image":"../images/iphone01.jpg"
+    },
+    {
+        "id":6,
+        "name":"iPhone 17",
+        "desription":"Titanium design with larger 6.3-inch Super Retina XDR display, note 1 Durable latest-generation Ceramic Shield, Action button, and USB-C supporting USB 3 speeds note 2",
+        "price":1200,
+        "image":"../images/iphone02.jpg"
+    },
+    {
+        "id":7,
+        "name":"iPhone 16",
+        "desription":"Titanium design with larger 6.3-inch Super Retina XDR display, note 1 Durable latest-generation Ceramic Shield, Action button, and USB-C supporting USB 3 speeds note 2",
+        "price":1200,
+        "image":"../images/iphone01.jpg"
+    },
+    {
+        "id":8,
+        "name":"iPhone 17",
+        "desription":"Titanium design with larger 6.3-inch Super Retina XDR display, note 1 Durable latest-generation Ceramic Shield, Action button, and USB-C supporting USB 3 speeds note 2",
+        "price":1200,
+        "image":"../images/iphone02.jpg"
     }
 ]
