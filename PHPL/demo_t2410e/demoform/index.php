@@ -1,3 +1,48 @@
+<?php
+
+
+$username = $_POST["Username"];
+$pwd = $_POST["Password"];
+$userError = $pwdError = "";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (empty($username)) {
+        $userError = "Username is required";
+    } else if (empty($pwd)) {
+        $pwdError = "Password is required";
+    } else {
+        $userError = "";
+        $pwdError = "";
+        login($username,$pwd);
+    }
+}
+function login($userName, $pwd): bool
+{
+    try {
+        $ip = "127.0.0.1";
+        $port = 3306;
+        $sql_name = "root";
+        $sql_pwd = "";
+        $db_name = "studentDatabase";
+        $connection = mysqli_connect($ip, $sql_name, $sql_pwd, $db_name, $port);
+        $query = "SELECT Username FROM `User` WHERE Username = '$userName' AND Password ='$pwd'";
+        if (!$connection) {
+            echo "Can not connection to MySQL ";
+        } else {
+            $result = mysqli_query($connection, $query);
+            if ($result->num_rows > 0) {
+                echo "Login successful";
+                return true;
+            } else {
+                echo "Login unsuccessful";
+                return false;
+            }
+        }
+    } catch (Exception $th) {
+        echo $th->getMessage();
+    }
+    return false;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,12 +64,12 @@
                         <div class="mb-2">
                             <label class="form-label">User name</label>
                             <input class="form-control" type="text" name="Username" placeholder="User name">
-                            <span><?php echo $error ?></span>
+                            <span class="text-danger"><?php echo $userError ?></span>
                         </div>
                         <div class="mb-2">
                             <label class="form-label">Password</label>
                             <input type="password" name="Password" class="form-control">
-                            <span> <?php echo $error ?> </span>
+                            <span class="text-danger"> <?php echo $pwdError ?> </span>
                         </div>
                         <div class="d-flex justify-content-end">
                             <button type="submit" class="btn btn-primary m-2 px-4">Login</button>
@@ -43,20 +88,3 @@
 </div>
 
 </html>
-
-<?php
-$username = $_POST["Username"];
-$pwd = $_POST["Password"];
-$error = "";
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    echo "POST Method";
-    if (empty($username)) {
-        $error = "Username is required";
-        echo $error;
-    }
-    if (empty($pwd)) {
-        $error = "Password is required";
-        echo $error;
-    }
-}
-?>
